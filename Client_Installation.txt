@@ -1,0 +1,18 @@
+
+=== Client Installation ===
+
+---------------------------
+
+Instruction
+
+1.)To compile clientx.c , type  "gcc clientx.c -o client"
+
+2.)To run clientx.c , type "./clientx <hostname> <port> <name>"
+   <hostname>: IP address of server
+   <port>    : port that used to communicate
+   <name>    : identity of client.
+   e.g. :  ./clientx localhost 8000 John
+
+3.)Now client program is running.
+
+

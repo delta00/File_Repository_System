@@ -1,0 +1,16 @@
+
+=== Server Installation ===
+
+---------------------------
+
+Instruction
+
+1.)To compile serverx.c , type  "gcc serverx.c -o server -lpthread"
+   -lpthread is used in multithreading.
+
+2.)To run serverx.c , type "./serverx <port> "
+   <port>    : port that used to communicate
+   e.g. :  ./clientx 8000
+
+3.)Now server program is running.
+
